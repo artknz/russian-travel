@@ -4,4 +4,5 @@
   position: relative;
   background-color: #2A2C2F;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
 }
