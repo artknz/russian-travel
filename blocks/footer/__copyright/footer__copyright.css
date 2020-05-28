@@ -7,10 +7,24 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 1180px) {
+  .footer__copyright {
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .footer__copyright {
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 680px) {
   .footer__copyright {
     margin-left: 16px;
-    margin-right: auto;
     margin-top: 48px;
+    margin-bottom: 24px;
+    line-height: 100%;
+    width: 100%;
   }
 }

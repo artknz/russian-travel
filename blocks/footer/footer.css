@@ -1,20 +1,22 @@
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
 @import url(./__nav/footer__nav.css);
+@import url(./__links/footer__links.css);
+@import url(./__item/footer__item.css);
 
 .footer {
   position: relative;
   max-width: 1184px;
-  width: 100%;
+  width: auto;
   margin: 92px auto 0;
   display: flex;
-  align-items: center;
 }
 
-
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 680px) {
   .footer {
+    max-width: 186px;
     flex-direction: column;
+    margin-left: 0;
   }
 }
 

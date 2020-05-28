@@ -12,9 +12,19 @@
   margin: 92px auto 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1030px) {
+  .intro {
+    max-width: 690px;
+    margin-left: 48px;
+    max-height: 428px;
+  }
+}
+
+@media screen and (max-width: 750px) {
   .intro {
     padding: 0 24px;
+    margin: 0 auto;
+    max-height: 752px;
   }
 }
 

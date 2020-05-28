@@ -12,3 +12,16 @@
   margin-right: 28px;
   margin-left: auto;
 }
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 400px) {
+  .header__lang-link {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: right;
+  }
+}

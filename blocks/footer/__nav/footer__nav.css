@@ -1,11 +1,22 @@
 .footer__nav {
   display: flex;
+  align-items: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1180px) {
   .footer__nav {
-    flex-direction: column;
-    margin-right: auto;
-    margin-left: 16px;
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .footer__nav {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer__nav {
+    margin-left: 0;
   }
 }

@@ -25,6 +25,7 @@
   opacity: 0.3;
   z-index: -1;
   width: auto;
+  transition: opacity 0.5s linear;
 }
 
 .cover__link:hover.cover__link::before {
